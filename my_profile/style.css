@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffecff;
+}
+
+header {
+   
+    padding: .5em;
+
+}
+
+header h1 {
+    color: #00aabb;
+    margin-bottom: .1em;
+}
+
+header h2 {
+    color: #700bcd;
+    margin-bottom: .2em;
+}
+
+header h3 {
+    border: 2px dotted #0918c4;
+    margin-bottom: .5em;
+    
+}
+
+@keyframes blink {
+
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+header h3:hover{
+    animation: blink 3s infinite;
+}
+
+section {
+    border: .15em solid goldenrod;
+    margin: .5em;
+    padding: 1em;
+}
+
+section h1 {
+    border-bottom: .125em solid dodgerblue;
+    margin-bottom: .5em;
+}
+
+section h2 {
+    color: darkcyan;
+}
+
+section h2, section ul, section p {
+    border: 1px solid skyblue
+}
